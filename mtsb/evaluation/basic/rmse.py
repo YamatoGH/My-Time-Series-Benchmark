@@ -3,7 +3,7 @@ from __future__ import annotations
 import numpy as np
 import pandas as pd
 
-from mtsp.utils.base_metric import BaseMetric
+from mtsb.utils.base_metric import BaseMetric
 
 
 class RMSE(BaseMetric):

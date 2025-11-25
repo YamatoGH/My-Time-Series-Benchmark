@@ -5,10 +5,10 @@ from typing import List
 
 import pandas as pd
 
-from mtsp.models.baseline.naive import NaiveModel
-from mtsp.models.dl.lstm_simple import LSTMSimpleModel
-from mtsp.models.statistical.arima import ARIMAModel
-from mtsp.utils.dataset import DatasetLoader
+from mtsb.models.baseline.naive import NaiveModel
+from mtsb.models.dl.lstm_simple import LSTMSimpleModel
+from mtsb.models.statistical.arima import ARIMAModel
+from mtsb.utils.dataset import DatasetLoader
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA_PATH = ROOT / "data/raw/daily_sales.csv"

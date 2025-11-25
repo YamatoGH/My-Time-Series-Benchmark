@@ -3,7 +3,7 @@ from __future__ import annotations
 import numpy as np
 import pandas as pd
 
-from mtsp.utils.base_model import BaseModel
+from mtsb.utils.base_model import BaseModel
 
 try:
     from tensorflow import keras

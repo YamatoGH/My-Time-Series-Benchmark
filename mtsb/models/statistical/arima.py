@@ -4,7 +4,7 @@ from typing import Tuple
 
 import pandas as pd
 
-from mtsp.utils.base_model import BaseModel
+from mtsb.utils.base_model import BaseModel
 
 try:
     from statsmodels.tsa.arima.model import ARIMA

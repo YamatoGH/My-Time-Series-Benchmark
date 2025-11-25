@@ -4,11 +4,11 @@ from pathlib import Path
 
 import pandas as pd
 
-from mtsp.evaluation.basic.mae import MAE
-from mtsp.evaluation.basic.mape import MAPE
-from mtsp.evaluation.basic.r2 import R2
-from mtsp.evaluation.basic.rmse import RMSE
-from mtsp.evaluation.basic.smape import SMAPE
+from mtsb.evaluation.basic.mae import MAE
+from mtsb.evaluation.basic.mape import MAPE
+from mtsb.evaluation.basic.r2 import R2
+from mtsb.evaluation.basic.rmse import RMSE
+from mtsb.evaluation.basic.smape import SMAPE
 
 ROOT = Path(__file__).resolve().parent.parent
 PROCESSED_DIR = ROOT / "data/processed"
