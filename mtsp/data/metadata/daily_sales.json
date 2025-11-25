@@ -1,0 +1,7 @@
+{
+  "target_column": "sales",
+  "timestamp_column": "date",
+  "frequency": "D",
+  "exogenous_columns": ["temperature", "rain_flag"],
+  "description": "Daily sales data with weather features."
+}
