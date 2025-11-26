@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import pandas as pd
 
-from mtsb.utils.base_model import BaseModel
+from utils.base_model import BaseModel
 
 
 class NaiveModel(BaseModel):
