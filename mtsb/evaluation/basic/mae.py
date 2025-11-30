@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import pandas as pd
 
-from mtsb.utils.base_metric import BaseMetric
+from utils.base_metric import BaseMetric
 
 
 class MAE(BaseMetric):

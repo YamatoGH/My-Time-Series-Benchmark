@@ -3,7 +3,7 @@ from __future__ import annotations
 import numpy as np
 import pandas as pd
 
-from mtsb.utils.base_metric import BaseMetric
+from utils.base_metric import BaseMetric
 
 
 class R2(BaseMetric):
