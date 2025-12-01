@@ -29,7 +29,7 @@ class SeasonalNaiveModel(BaseModel):
         if self._train_series is None or self._last_timestamp is None:
             raise RuntimeError("Call fit before forecast")
 
-        # 未来のインデックスを生成（naive.py と同じ）
+        # 未来のインデックスを生成
         future_index = self._build_future_index(self._last_timestamp, horizon)
 
         # 過去の seasonal_period 前の値を参照
